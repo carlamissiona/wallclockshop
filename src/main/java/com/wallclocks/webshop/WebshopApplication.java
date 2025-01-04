@@ -1,13 +1,13 @@
-package com.walldecors.shop.webshop;
+package com.wallclocks.webshop;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class WallclockshopApplication {
+public class WebshopApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(WallclockshopApplication.class, args);
+		SpringApplication.run(WebshopApplication.class, args);
 	}
 
 }

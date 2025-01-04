@@ -1,4 +1,4 @@
-package com.walldecors.shop.webshop;
+package com.wallclocks.webshop;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
