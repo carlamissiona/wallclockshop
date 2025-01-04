@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Wall Clocks - Our Available Merchandise</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+    <h1>Available Clocks</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Tags</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="clock : ${clocks}">
+                <td th:text="${clock.title}">Title</td>
+                <td th:text="${clock.tags}">Tags</td>
+                <td th:text="${clock.description}">Description</td> 
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

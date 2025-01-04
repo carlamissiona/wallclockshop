@@ -10,4 +10,4 @@
 ##### docker run -p 8080:8080 springdocker/webshop 
 
 #### to remote dokcer image
- docker image rm springdocker/webshop
+##### docker image rm springdocker/webshop
